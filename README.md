@@ -21,10 +21,10 @@ callback will be called first.
 3. [callback] `timeout`
 
 ### Server dropping packets; `socket.destroy();` in the `timeout` event handler
-1. [event] lookup
-2. [event] timeout
-3. [callback] timeout
-4. [event] close
+1. [event] `lookup`
+2. [event] `timeout`
+3. [callback] `timeout`
+4. [event] `close`
 
 ### Server rejects connections
 1. [event] `lookup`
